@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 12px 30px;
+    background-color: #5f8fe7;
+    font-size: 20px;
+}
+.NavbarDark{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 12px 30px;
+    background-color: #0c2c84;
+    font-size: 20px;
+    color: white;
+}
+
+.toggler {
+    display: flex;
+    align-items: center;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.toggler--slider {
+    width: 25px;
+    height: 13px;
+    background-color: #0c2c84;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #0c2c84;
+    box-sizing: content-box;
+}
+
+.toggler--sliderDark{
+    margin-inline: 7px;
+    cursor: pointer;
+    border-radius: 2rem;
+    background-color: #5f8fe7;
+    border: 1px solid #5f8fe7;
+    width: 25px;
+    height: 13px;
+
+}
+
+.toggler--slider--circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+.toggler--slider--circleDark {
+    margin-left: auto;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.toggler--light {
+    color: #2B283A;
+}
+
+.toggler--dark {
+    color: #D5D4D8;
+}
+
+.HomePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0c2c84;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.HomePageWhite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #5f8fe7;
+    color: black;
+    height: 100vh;
+}
+
+.HomePageButton{
+    margin-top: 29px;
+    width: 100px;
+    padding: 10px 1px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fffc00;
+    color: #0c2c84;
+    font-weight: 600;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /*learn this*/
+}
+.HomePageButton:hover {
+    background-color: #212121;
+    color: #fffc00;
+    cursor: pointer;
+}
+
+.Question{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    color: white;
+    background-color: #212121;
+    height: 100%;
+    padding: 30px 40px;
+    text-align: center;
+}
+.QuestionWhite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    color: black;
+    background-color: rgb(209, 207, 207);
+    height: 100%;
+    padding: 30px 40px;
+    text-align: center;
+}
+.QuestionBody{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 10px;
+    border-bottom: 1px solid grey;
+}
+.QuestionBody>h4{
+    margin-right: auto;
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.QuestionHeadingWhite{
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    align-self: flex-start;
+}
+.AllOptions{
+    display: flex;
+    justify-content: space-between;
+}
+.option{
+    padding: 8px 15px;
+    background-color: #3871db;
+    font-family: 'Karla';
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+.option:hover{
+    background-color: #ffffff;
+    color: blue;
+}
+
+.checker{
+    padding: 8px 25px;
+    border-radius: 10px;
+    background-color: #fffc00;
+    font-family: 'Karla';
+    color: #0c2c84;
+    font-weight: 700;
+   transition: all 0.2s ease-in-out;
+   border: none;
+   cursor: pointer;
+   width: 200px;
+   margin: 0 auto;
+}
+.checker:hover{
+    background-color: #3871db;
+    color: yellow;
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.4);
+}
+.playAgain{
+    margin-top: 20px;
+    background-color: #3871db;
+    color: #ffffff;
+}
+.playAgain:hover{
+    background-color: #ffffff;
+    color: #3871db;
+}
+.winningPage{
+    background-color: #0c2c84;
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: #fffc00;
+}
+
+/* Mobile styling is left */
